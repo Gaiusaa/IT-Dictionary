@@ -1,0 +1,313 @@
+body {
+    background-image: linear-gradient(to bottom, rgb(255, 25, 25), rgb(143, 15, 15));
+  }
+
+nav {
+    background-color: rgba(237, 13, 13, 0.888);
+    border-bottom: 5px solid rgba(196, 0, 0, 0.888);
+    display: flex;
+  }
+  
+.lenker ol {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    padding-left: 2%;
+  }
+
+.lenke {
+    display: inline-block;
+}
+
+.lenke a {
+    color: white;
+}
+
+.lenke a:hover {
+    text-decoration: none;
+}
+
+.lenke a:active {
+    color: rgb(76, 129, 242);
+}
+
+.lenke a:link {
+  text-decoration: none;
+}
+
+.lenke a:visited {
+  text-decoration: none;
+}
+
+.lenke a:active {
+  text-decoration: none;
+}
+
+.TextDivs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 45%;
+  height: 82.5%;
+
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+  font-size: 175%;
+  text-align: center; 
+  color: white; 
+
+}
+
+.ImageDivs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  height: 50%;
+
+  position: absolute;
+  top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 20px;
+  font-size: 200%;
+  text-align: center; 
+  color: white; 
+}
+
+.FlexInfoBox {
+  display: flex;
+  flex-grow: 1;
+}
+
+.IntroDiv {
+    position: absolute;
+    top: 22.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(196, 0, 0, 0.888);
+    border-bottom: 10px solid rgba(148, 0, 0);
+    color: white;
+    height: 15%;
+    width: 35%;
+
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.StartDiv {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(235, 35, 35);
+    border-bottom: 5px solid rgb(126, 7, 7);
+    border-top: 5px solid rgb(126, 7, 7);
+    border-left: 5px solid rgb(126, 7, 7);
+    border-right: 5px solid rgb(126, 7, 7);
+    border-radius: 25px;
+    padding: 20px;
+    font-size: 450%;
+    height: 12.5%;
+    width: 30%;
+    text-align: center;
+}
+
+.StartDiv:hover {
+    font-size: 500%;
+    cursor: pointer;
+    text-align: center;
+    width: 32.5%;
+    height: 14%;
+}
+
+#StartButton:hover {
+    text-decoration: none;
+}
+
+#StartButton:active {
+    color: rgb(76, 129, 242);
+}
+
+#StartButton:link {
+  text-decoration: none;
+}
+
+#StartButton:visited {
+  text-decoration: none;
+}
+
+#StartButton:active {
+  text-decoration: none;
+}
+
+.PreviousButton {
+    position: absolute;
+    left: 1%;
+    bottom: 2%;
+    transform: translate(-1%, -50%);
+    background-color: rgb(211, 0, 0);
+    border-bottom: 3px solid rgb(211, 0, 0);
+    border-top: 3px solid rgb(211, 0, 0);
+    border-left: 3px solid rgb(211, 0, 0);
+    border-right: 3px solid rgb(211, 0, 0);
+    border-radius: 25px;
+    color: white;
+}
+
+.PreviousButton:hover {
+    width: 6%;
+    height: 3%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.PreviousButton:active {
+    color: rgb(76, 129, 242);
+}
+
+.PreviousButton:link {
+  text-decoration: none;
+}
+
+.PreviousButton:visited {
+  text-decoration: none;
+}
+
+.PreviousButton:active {
+  text-decoration: none;
+}
+
+.NextButton {
+    position: absolute;
+    left: 95.5%;
+    bottom: 2%;
+    transform: translate(-1%, -50%);
+    background-color: rgb(211, 0, 0);
+    border-bottom: 3px solid rgb(211, 0, 0);
+    border-top: 3px solid rgb(211, 0, 0);
+    border-left: 3px solid rgb(211, 0, 0);
+    border-right: 3px solid rgb(211, 0, 0);
+    border-radius: 25px;
+    color: white;
+}
+
+.NextButton:hover {
+    width: 4%;
+    height: 3%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.NextButton:active {
+    color: rgb(76, 129, 242);
+}
+
+.NextButton:link {
+  text-decoration: none;
+}
+
+.NextButton:visited {
+  text-decoration: none;
+}
+
+.NextButton:active {
+  text-decoration: none;
+}
+
+#TitleText {
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+    position: absolute; 
+    left: 17.5%;
+    transform: translate(-1%, -0%);
+}
+
+#TitleSubText {
+    font-size: 125%;
+    font-style: italic;
+    text-align: center;
+    position: absolute; 
+    top: 100%; 
+    left: 30%;
+    transform: translate(-1%, -1%);
+}
+
+#StartButton {
+    color: white;
+}
+
+.InfoDivs {
+    position: absolute;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    font-size: 200%;
+    height: 12.5%;
+    width: 30%;
+    text-align: center; 
+    color: white; 
+}
+
+.LeftImages img{
+    position: absolute;
+    left: 0%;
+    bottom: 35%;
+    width: 25%;
+    height: 75%;
+    transform: translate(-1%, 25%);
+
+    border-bottom: 5px solid rgb(126, 7, 7);
+    border-top: 5px solid rgb(126, 7, 7);
+    border-left: 5px solid rgb(126, 7, 7);
+    border-right: 5px solid rgb(126, 7, 7);
+    border-radius: 25px;
+}
+
+.RightImages img{
+    position: absolute;
+    right: 0%;
+    bottom: 35%;
+    width: 25%;
+    height: 75%;
+    transform: translate(-1%, 25%);
+
+    border-bottom: 5px solid rgb(126, 7, 7);
+    border-top: 5px solid rgb(126, 7, 7);
+    border-left: 5px solid rgb(126, 7, 7);
+    border-right: 5px solid rgb(126, 7, 7);
+    border-radius: 25px;
+}
+
+.PageNumber {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.TitleText {
+  position: absolute;
+  top: 17.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.TermText {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27.5;
+    background-color: rgb(255, 25, 25);
+    border-bottom: 5px solid rgb(126, 7, 7);
+    border-radius: 25px;
+}
